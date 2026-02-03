@@ -18,253 +18,483 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <!-- Put your site title here -->
-  <title>
-    Rachel Chang | A Data Engineer/Scientist based in United States.
-  </title>
+    <!-- Put your site title here -->
+    <title>
+        Rachel Chang | A Data Engineer/Scientist based in United States.
+    </title>
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Rachel Chang, Data Engineering, ML Modeling, Python, DBT, SQl, CTM, C++, Lift and Shift, AWS" />
-  <link rel="stylesheet" href="index.css" />
+    <meta name="description" content="Add small description of yourslef.">
+    <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+    <meta name="keywords"
+        content="Rachel Chang, Data Engineering, ML Modeling, Python, DBT, SQl, CTM, C++, Lift and Shift, AWS" />
+    <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
 
-  <!-- ***** Header ***** -->
+    <!-- ***** Header ***** -->
 
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Rachel Chang</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A Data Engineer based in United States.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
-    </div>
-  </header>
-
-  <main role="main">
-
-    <!-- ***** Work ***** -->
-
-    <section class="work" id="work">
-      <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Github Data Science Masters Portfolio</h3>
-              <p>
-                This portfolio highlights some of my best projects, and ones I learned the most from.
-              </p>
-              <ul class="work__list">
-                <li>Best_Model_Selection_and_Hyperparameter_Tuning_DSC550_9.2_Exercise</li>
-                <li>Recommendation_system_DSC630_10.2_assignment</li>
-                <li>tf-idf_vectorization_Movie_reviews_DSC550_Exercise_5.2</li>
-                <li>Convolutional_neural_network_(CNN)_to_classify_handwritten</li>
-                <li>Chocolate_sales_Final_project_dsc_530</li>
-                <li>Housing_supply_trends_DSC630_Final Project</li>
-                <li>Rexburg_rental_property_pricing_DSC550_11_Final_Project</li>
-                <li>Shopping_analytics_DSC680_project01</li>
-                <li>Kept blank for last two projects in this class</li>
-                <li>Kept blank for last two projects in this class</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/rjchang96/Github-portfolio" title="View Source Code" target="_blank" class="link__text">
-                    See Code for this Portfolio <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Best_Model_Selection_and_Hyperparameter_Tuning_DSC550_9.2_Exercise</h3>
-              <p>
-                This project utilized gridsearch and hyperparameter tuning which are very valuable to fine tuning my future models.
-              </p>
-              <ul class="work__list">
-                <li>Fine Tuning</li>
-                <li>Gridsearch</li>
-                <li>Ideal Model Selection</li>
-                <li>Python</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/rjchang96/Best_Model_Selection_and_Hyperparameter_Tuning_DSC550_9_2_Exercise" class="link__text">
-                  See Code for Project <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/DSC550_9.2_exercise.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Recommendation_system_DSC630_10.2_assignment</h3>
-              <p>
-                This was the first time I learned how to create a recommendation system using a movie database. 
-                I found this project fascinating and was intrigued by the implications of how I could utilize it in 
-                the future, and could better understand how something like this is utilized by Netflix or Spotify.
-              </p>
-              <ul class="work__list">
-                <li>Data Cleaning</li>
-                <li>Vectorizer</li>
-                <li>Map building for Recommendation</li>
-                <li>Python</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/rjchang96/Recommendation_system_DSC630_10.2_assignment" class="link__text">
-                  See Code for Project <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/DSC630_10_2.png" class="work__image" alt="Project 2" />
-            </div>
-          </div>
+    <header class="header" role="banner" id="top">
+        <div class="row">
+            <nav class="nav" role="navigation">
+                <ul class="nav__items">
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-      </div>
+        <div class="header__text-box row">
+            <div class="header__text">
+                <h1 class="heading-primary">
+                    <!-- Replace the following name with your name -->
+                    <span>Rachel Chang</span>
+                </h1>
+                <!-- Put a small paragraph about yourself -->
+                <p>A Data Engineer based in United States.</p>
+                <a href="#contact" class="btn btn--pink">Get in touch</a>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+
+        <!-- ***** Work ***** -->
+
+        <section class="work" id="work">
+            <div class="row">
+                <h2>My Work</h2>
+                <div class="work__boxes">
+
+                    <!-- Each div with the work__box class is a project. -->
+
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Github Data Science Masters Portfolio</h3>
+                            <p>
+                                This portfolio highlights some of my best projects, and ones I learned the most from.
+                            </p>
+                            <ul class="work__list">
+                                <li>Best_Model_Selection_and_Hyperparameter_Tuning_DSC550_9.2_Exercise</li>
+                                <li>Recommendation_system_DSC630_10.2_assignment</li>
+                                <li>tf-idf_vectorization_Movie_reviews_DSC550_Exercise_5.2</li>
+                                <li>Convolutional_neural_network_(CNN)_to_classify_handwritten</li>
+                                <li>Chocolate_sales_Final_project_dsc_530</li>
+                                <li>Housing_supply_trends_DSC630_Final Project</li>
+                                <li>Rexburg_rental_property_pricing_DSC550_11_Final_Project</li>
+                                <li>Shopping_analytics_DSC680_project01</li>
+                                <li>Kept blank for last two projects in this class</li>
+                                <li>Kept blank for last two projects in this class</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/rjchang96/Github-portfolio" title="View Source Code"
+                                    target="_blank" class="link__text">
+                                    See Code for this Portfolio <span>&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Best_Model_Selection_and_Hyperparameter_Tuning_DSC550_9.2_Exercise</h3>
+                            <p>
+                                This project utilized gridsearch and hyperparameter tuning which are very valuable to
+                                fine tuning my future models.
+                            </p>
+                            <ul class="work__list">
+                                <li>Fine Tuning</li>
+                                <li>Gridsearch</li>
+                                <li>Ideal Model Selection</li>
+                                <li>Python</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/rjchang96/Best_Model_Selection_and_Hyperparameter_Tuning_DSC550_9_2_Exercise"
+                                    class="link__text">
+                                    See Code for Project <span>&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/DSC550_9.2_exercise.png" class="work__image" alt="Project 1" />
+                        </div>
+                    </div>
+
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Recommendation_system_DSC630_10.2_assignment</h3>
+                            <p>
+                                This was the first time I learned how to create a recommendation system using a movie
+                                database.
+                                I found this project fascinating and was intrigued by the implications of how I could
+                                utilize it in
+                                the future, and could better understand how something like this is utilized by Netflix
+                                or Spotify.
+                            </p>
+                            <ul class="work__list">
+                                <li>Data Cleaning</li>
+                                <li>Vectorizer</li>
+                                <li>Map building for Recommendation</li>
+                                <li>Python</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/rjchang96/Recommendation_system_DSC630_10.2_assignment"
+                                    class="link__text">
+                                    See Code for Project <span>&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/DSC630_10_2.png" class="work__image" alt="Project 2" />
+                        </div>
+                    </div>
+                    <!-- start here-->
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>tf-idf_vectorization_Movie_reviews_DSC550_Exercise_5.2</h3>
+                            <p>
+                                a. In this assignment it was my first time learning about tf-idf
+                                vectorization and how to apply it for sentiment analysis on the movie reviews.
+                            </p>
+                            <ul class="work__list">
+                                <li>Data Cleaning</li>
+                                <li>Vectorizer</li>
+                                <li>Map building for Recommendation</li>
+                                <li>Python</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/rjchang96/tf-idf_vectorization_Movie_reviews_DSC550_Exercise_5.2"
+                                    class="link__text">
+                                    See Code for Project <span>&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/DSC630_10_2.png" class="work__image" alt="Project 2" />
+                        </div>
+                    </div>
+
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Convolutional_neural_network_(CNN)_to_classify_handwritten</h3>
+                            <p>
+                                This assignment was the first time I got to build a convolutional neural network to
+                                classify
+                                handwritten text. It was fascinating and is a needed skill in most modern uses of
+                                machine learning.
+                            </p>
+                            <ul class="work__list">
+                                <li>Data Cleaning</li>
+                                <li>Vectorizer</li>
+                                <li>Map building for Recommendation</li>
+                                <li>Python</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/rjchang96/convolutional_neural_network_-CNN-_to_classify_handwritten-digits_DSC550_11.2_Exercise"
+                                    class="link__text">
+                                    See Code for Project <span>&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/DSC630_10_2.png" class="work__image" alt="Project 2" />
+                        </div>
+                    </div>
+
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Chocolate_sales_Final_project_dsc_530</h3>
+                            <p>
+                                This project I took data from chocolate sales around the world to determine if raising
+                                the
+                                price by 10% would adversely affect overall sales. It was my first initial experiment
+                                into predictive analytics.
+                            </p>
+                            <ul class="work__list">
+                                <li>Data Cleaning</li>
+                                <li>Vectorizer</li>
+                                <li>Map building for Recommendation</li>
+                                <li>Python</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/rjchang96/Chocolate_sales_Final_project_dsc_530"
+                                    class="link__text">
+                                    See Code for Project <span>&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/DSC630_10_2.png" class="work__image" alt="Project 2" />
+                        </div>
+                    </div>
+
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Housing_supply_trends_DSC630_Final Project</h3>
+                            <p>
+                                In this project I took data from RedFin to predict future housing supply
+                                trends based on its collected historical data. This was a particularly challenging
+                                project
+                                for me because of how much data there was to sift through and obscure column names.
+                                It proved to be a very interesting project for me.
+                            </p>
+                            <ul class="work__list">
+                                <li>Data Cleaning</li>
+                                <li>Vectorizer</li>
+                                <li>Map building for Recommendation</li>
+                                <li>Python</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/rjchang96/Housing_supply_trends_DSC630_Final-Project"
+                                    class="link__text">
+                                    See Code for Project <span>&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/DSC630_10_2.png" class="work__image" alt="Project 2" />
+                        </div>
+                    </div>
+
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Rexburg_rental_property_pricing_DSC550_11_Final_Project</h3>
+                            <p>
+                                a. In this project I took real data of all the student housing options in Rexburg Idaho,
+                                and analyzed based on provided amenities, location, and rating how much a property
+                                should
+                                charge a student per semester.
+                            </p>
+                            <ul class="work__list">
+                                <li>Data Cleaning</li>
+                                <li>Vectorizer</li>
+                                <li>Map building for Recommendation</li>
+                                <li>Python</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/rjchang96/Rexburg_rental_property_pricing_DSC550_11_Final_Project"
+                                    class="link__text">
+                                    See Code for Project <span>&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/DSC630_10_2.png" class="work__image" alt="Project 2" />
+                        </div>
+                    </div>
+
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Shopping_analytics_DSC680_project01</h3>
+                            <p>
+                                I took customer shopping analytic data to understand the customer demographics
+                                and predict future inventory trends to manage Strawberry Lemon’s store fronts better.
+                            </p>
+                            <ul class="work__list">
+                                <li>Data Cleaning</li>
+                                <li>Vectorizer</li>
+                                <li>Map building for Recommendation</li>
+                                <li>Python</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/rjchang96/Shopping_Analytics_DSC680_project01"
+                                    class="link__text">
+                                    See Code for Project <span>&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/DSC630_10_2.png" class="work__image" alt="Project 2" />
+                        </div>
+                    </div>
+
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Kept blank for last two projects in this class</h3>
+                            <p>
+
+                            </p>
+                            <ul class="work__list">
+                                <li>Data Cleaning</li>
+                                <li>Vectorizer</li>
+                                <li>Map building for Recommendation</li>
+                                <li>Python</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/rjchang96/Recommendation_system_DSC630_10.2_assignment"
+                                    class="link__text">
+                                    See Code for Project <span>&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/DSC630_10_2.png" class="work__image" alt="Project 2" />
+                        </div>
+                    </div>
+
+
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Kept blank for last two projects in this class</h3>
+                            <p>
+
+                            </p>
+                            <ul class="work__list">
+                                <li>Data Cleaning</li>
+                                <li>Vectorizer</li>
+                                <li>Map building for Recommendation</li>
+                                <li>Python</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/rjchang96/Recommendation_system_DSC630_10.2_assignment"
+                                    class="link__text">
+                                    See Code for Project <span>&rarr;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/DSC630_10_2.png" class="work__image" alt="Project 2" />
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- End Here-->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Clients ***** -->
+
+        <section class="client" id="clients">
+            <div class="row">
+                <h2>Clients</h2>
+                <div class="client__logos">
+                    <!-- Add logos of the clients or companies you'have worked with. -->
+                    <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+                    <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+                    <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+                    <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+                    <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+                    <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** About ***** -->
+
+        <section class="about" id="about">
+            <div class="row">
+                <h2>About Me</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <!-- Replace the below paragraph with info about yourself -->
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
+                            nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
+                            in vel, ex quam quidem quos mollitia labore aut sunt eius
+                            ratione molestiae fuga veniam facere similique voluptate.
+                        </p>
+                        <!-- Provide a link to your resume -->
+                        <a href="#" class="btn">My Resume</a>
+                    </div>
+
+                    <div class="about__photo-container">
+                        <!-- Add a nice photo of yourself -->
+                        <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ***** Contact ***** -->
+
+    <section class="contact" id="contact">
+        <div class="row">
+            <h2>Get in Touch</h2>
+            <div class="contact__info">
+                <p>
+                    Are you looking for a fast-performing and user-friendly website to
+                    represent your product or business? or looking for any kind of
+                    consultation? or want to ask questions? or have some advice for me
+                    or just want to say "Hi 👋" in any case feel free to Let me know. I
+                    will do my best to respond back. 😊 The quickest way to reach out to
+                    me is via an email.
+                </p>
+                <!-- Replace the email with yours -->
+                <a href="mailto:you@example.com" class="btn">you@example.com</a>
+            </div>
+        </div>
     </section>
 
-    <!-- ***** Clients ***** -->
+    <!-- ***** Footer ***** -->
 
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
-        </div>
-      </div>
-    </section>
+    <footer role="contentinfo" class="footer">
+        <div class="row">
+            <!-- Update the links to point to your accounts -->
+            <ul class="footer__social-links">
+                <li class="footer__social-link-item">
+                    <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
+                        <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+                    </a>
+                </li>
+                <li class="footer__social-link-item">
+                    <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+                        <img src="./images/github.svg" class="footer__social-image" alt="Github">
+                    </a>
+                </li>
+                <li class="footer__social-link-item">
+                    <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+                        <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+                    </a>
+                </li>
+                <li class="footer__social-link-item">
+                    <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/"> <img src="./images/linkedin.svg"
+                        title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+                    </a>
+                </li>
+            </ul>
 
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
+            <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+                &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
             </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
-          </div>
+            <div class="footer__github-buttons">
+                <iframe
+                    src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+                    frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+                </iframe>
+            </div>
         </div>
-      </div>
-    </section>
-  </main>
+    </footer>
 
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
-    </div>
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
+    <a href="#top" class="back-to-top" title="Back to Top">
+        <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+    </a>
+    <script src="./index.js"></script>
 </body>
 
 </html>
